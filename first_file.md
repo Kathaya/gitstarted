@@ -33,3 +33,17 @@ You can also embed plots, for example:
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.
+
+``` r
+x <- c(10:1)*1/c(1:10)
+x
+```
+
+    ##  [1] 10.0000000  4.5000000  2.6666667  1.7500000  1.2000000  0.8333333
+    ##  [7]  0.5714286  0.3750000  0.2222222  0.1000000
+
+``` r
+plot(c(1:10), x)
+```
+
+![](first_file_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
